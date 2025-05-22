@@ -480,15 +480,15 @@ echo "echo 'Don't forget: tcache'" >> .git/hooks/post-commit
 
 Found a bug or have a feature request? 
 
-1. Check existing [issues](https://github.com/yourusername/task-cache/issues)
+1. Check existing [issues](https://github.com/dholdaway/TaskCache/issues)
 2. Create a new issue with detailed description
 3. Or submit a pull request!
 
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/task-cache.git
-cd task-cache
+git clone https://github.com/dholdaway/TaskCache.git
+cd TaskCache
 npm install
 npm link
 ```
