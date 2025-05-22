@@ -1,0 +1,185 @@
+# Task Cache .gitignore
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Task Cache specific files
+# Don't commit test logs or personal task caches
+test-logs/
+*.test.md
+example-logs/
+
+# GitHub configuration files with tokens (these should never be committed)
+.github-config.json
+*github-config.json
+
+# Personal task cache directories (for development/testing)
+.task-cache/
+task-cache-test/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.fuse_hidden*
+.nfs*
+
+# Logs
+logs
+*.log
+
+# Runtime directories
+.tmp/
+.temp/
+
+# Package lock files (choose one based on your preference)
+# Uncomment the one you DON'T want to track
+# package-lock.json
+# yarn.lock
+
+# Build outputs
+dist/
+build/
+lib/
+
+# Documentation builds
+docs/build/
+
+# Test outputs
+test-results/
+coverage-reports/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Archive files (shouldn't be in repo generally)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Database files (if any)
+*.sqlite
+*.sqlite3
+*.db
+
+# Screenshots directory (uncomment if you don't want to track screenshots)
+# screenshots/
+
+# Config files with sensitive data
+config/local.*
+config/production.*
+secrets.json
+
+# NPM publish files
+.npmrc
+.npm/

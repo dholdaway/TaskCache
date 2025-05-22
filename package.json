@@ -1,0 +1,48 @@
+{
+  "name": "task-cache",
+  "version": "1.0.0",
+  "description": "Quick daily task logging for developers to improve productivity and context switching",
+  "main": "index.js",
+  "bin": {
+    "tcache": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "github-sync.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "developer",
+    "productivity",
+    "logging",
+    "task-management",
+    "cli",
+    "markdown",
+    "github",
+    "context-switching",
+    "daily-log",
+    "development-tools"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dateformat": "^4.5.1",
+    "mkdirp": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/task-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/task-cache/issues"
+  },
+  "homepage": "https://github.com/yourusername/task-cache#readme"
+}
